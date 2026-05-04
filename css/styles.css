@@ -39,15 +39,12 @@ align-items: center;
 .header-nav {
     align-items: center;
     display: flex;
-
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
-
-
 }
 .nav-item {
 }
@@ -61,9 +58,26 @@ align-items: center;
 .contacts-item {
     display: block;
     padding: 24px 0;
-    
-
 }
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+    }
+    .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: block;
+    padding: 24px 0;
+    }
+    .contacts-link:hover,
+    .nav-link:focus,
+    .nav-link:hover,
+    .contacts-link:focus 
+    {
+    color: #404bbf;
+    }
 .header-logo {
     padding: 24px 0;
     margin-right: 76px;
@@ -88,31 +102,11 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 display: block;
 padding: 24px 0;
-
 }
-.contacts {
-font-style: normal;
-margin-left: auto;
-}
-.contacts-link {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-display: block;
-padding: 24px 0;
-}
-
-.contacts-link:hover,
-.nav-link:focus,
-.nav-link:hover,
-.contacts-link:focus 
-{
-color: #404bbf;
-}
-
 .main-section {
     background-color: #2e2f42;
+    max-width: 1440px; 
+    
 }
 .h-text {
     font-size: 56px;
@@ -120,13 +114,15 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
+margin: auto;
+padding: 188px 0 292px;
 }
 .primer-button:hover,
 .primer-button:focus {
 background-color: #404bbf;
 } 
 .primer-button {
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -135,11 +131,22 @@ color: #fff;
 background: #4d5ae5;
 cursor: pointer;
 }
+.button {
+text-align: center;
+padding: 16px 32px;
+border-radius: 4px;
+display: flex;
+margin: auto;
+
+}
 .main-section-second {
 
 }
 .main-list {
-    
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) /4);
+
 }
 .main-item {
     font-weight: 500;
@@ -147,8 +154,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-}
 
+}
 .item-text {
 font-size: 16px;
 line-height: 1.5;
@@ -172,6 +179,9 @@ text-transform: capitalize;
 }
 .team-item {
     background-color: #fff;
+}
+.item-conteiner{
+    
 }
 .name {
     font-weight: 500;
@@ -226,7 +236,6 @@ color: #434455;
 .footer-logo .logo-part {
     color: #f4f4fd;
     }
-    
 .footer-text {
 font-size: 16px;
 line-height: 1.5;
