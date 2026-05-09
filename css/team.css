@@ -33,7 +33,7 @@
 }
 
 .item-container {
-    padding: 32px 0; 
+    padding: 32px 16px; 
     display: flex; 
     flex-direction: column;
     align-items: center;

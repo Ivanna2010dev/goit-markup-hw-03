@@ -24,12 +24,9 @@
     align-items: center;
     display: flex;
     gap: 40px;
-    
+
 }
-.contacts-item {
-    display: block;
-    padding: 24px 0;
-}
+
 .contacts {
     font-style: normal;
     margin-left: auto;  
