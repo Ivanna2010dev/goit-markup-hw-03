@@ -8,20 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wdth,wght@75..100,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/body.css">
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header class="page-header">
-        ,<div class="container header-container">
+        <div class="container header-container">
             <nav class="header-nav">
             <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
             <ul class="nav-list">
-              <li class="nav-item"><a class="nav-link" href="./index.html">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Team</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li> 
+              <li><a class="nav-link" href="./index.html">Features</a></li>
+              <li><a class="nav-link" href="">Team</a></li>
+              <li><a class="nav-link" href="">Portfolio</a></li> 
             </ul>
              </nav>
       <address class="contacts">
@@ -38,10 +35,8 @@
            <button class="primer-button button" type="button">Order Service</button>
       </section>
               <section class="main-section-second">
-                  <h2 hidden>Strategy
-                  Punctuality
-                  Diligence
-                  Technologies</h2>
+                <div class="container">
+                  <h2 class="sr-only">Our Features</h2>
                   <ul class="main-list">
                 <li> 
                   <h3 class="main-item">Strategy</h3>
@@ -65,15 +60,17 @@
                  </p>
               </li>
               </ul>
+              </div>
               </section>
       <section class="main-section-third">
+        <div class="container">
           <h2 class="team">Our Team</h2>
           <ul class="team-list">
               <li class="team-item">
                   <img src="./images/mark.jpg" 
                   alt="portret of the men"
                   width="264">
-                  <div class="item-conteiner">
+                  <div class="item-container">
                   <h3 class="name">Mark Guerrero</h3>
                   <p class="text-prof">Product Designer</p>
                 </div>
@@ -82,7 +79,7 @@
                   <img src="./images/tom.jpg" 
                   alt="portret of the men"
                   width="264">
-                  <div class="item-conteiner">
+                  <div class="item-container">
                   <h3 class="name">Tom Ford</h3>
                   <p class="text-prof">Frontend Developer</p>
                 </div>
@@ -91,7 +88,7 @@
                   <img src="./images/camila.jpg" 
                   alt="portret of the women"
                   width="264">
-                  <div class="item-conteiner">
+                  <div class="item-container">
                   <h3 class="name">Camila Garcia</h3>
                   <p class="text-prof">Marketing</p>
                 </div>
@@ -100,48 +97,59 @@
                   <img src="./images/daniel.jpg" 
                   alt="portret of the men"
                   width="264">
-                  <div class="item-conteiner">
+                  <div class="item-container">
                   <h3 class="name">Daniel Wilson</h3>
                   <p class="text-prof">UI Designer</p>
                 </div>
               </li>
           </ul>
+          </div>
       </section>
       <section class="main-section-fourth">
+        <div class="container">
           <h2 class="our-portfolio">Our Portfolio</h2>
       <ul class="portfolio-list">
           <li class="portfolio-item">
               <img src="./images/pages.jpg" 
               alt="pages" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Banking App</h3>
                       <p class="portfolio-text">App</p>
+            </div>
           </li>
           <li class="portfolio-item">
               <img src="./images/pay.jpg" 
               alt="pay" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Cashless Payment</h3>
                       <p class="portfolio-text">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
               <img src="./images/comp.jpg" 
               alt="computer" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Meditation App</h3>
                       <p class="portfolio-text">App</p>
+            </div>
           </li>
           <li class="portfolio-item">
               <img src="./images/drive.jpg" 
               alt="drive" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Taxi Service</h3>
                       <p class="portfolio-text">Marketing</p>
+             </div>
           </li>
           <li class="portfolio-item">
               <img src="./images/phone.jpg" 
               alt="phone" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Screen Illustrations</h3>
                       <p class="portfolio-text">Design</p>
           </li>
@@ -149,16 +157,22 @@
               <img src="./images/women.jpg" 
               alt="women" 
               width="360">
+              <div class="portfolio-container">
                   <h3 class="portfolio-h">Online Courses</h3>
                       <p class="portfolio-text">Marketing</p>
+              </div>
           </li>
       </ul>
+      </div>
       </section>
           </main>
           <footer class="page-footer">
-              <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-              <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <div class="container">
+              <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span>
+            </a>
+              <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+              </p>
+              </div>
       </footer>
-    </div>
 </body>
 </html>
