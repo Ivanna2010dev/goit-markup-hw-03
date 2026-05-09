@@ -1,11 +1,6 @@
 .main-section {
     background-color: #2e2f42;
-    padding: 188px 0;   
-    min-height: 600px;   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 188px 0;      
     text-align: center;
 }
 
@@ -36,8 +31,9 @@
 }
 
 .button {
-    padding: 16px 32px;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
+   display: block;
+   margin: 0 auto;
+   min-width: 169px;
+   height: 56px;
+   border-radius: 4px;
 }
