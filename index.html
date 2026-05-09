@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="page-header">
+    <header class="page-header" id="header">
         <div class="container header-container">
             <nav class="header-nav">
             <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -27,14 +27,15 @@
               <li class="contacts-item"> <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
       </address>
+        </div>
       </header>
       <main >
-      <section class="main-section">
+      <section class="main-section" id="hero">
       <h1 class="h-text">Effective Solutions
           for Your Business</h1>
            <button class="primer-button button" type="button">Order Service</button>
       </section>
-              <section class="main-section-second">
+              <section class="main-section-second" id="features">
                 <div class="container">
                   <h2 class="sr-only">Our Features</h2>
                   <ul class="main-list">
@@ -62,7 +63,7 @@
               </ul>
               </div>
               </section>
-      <section class="main-section-third">
+      <section class="main-section-third" id="team">
         <div class="container">
           <h2 class="team">Our Team</h2>
           <ul class="team-list">
@@ -105,7 +106,7 @@
           </ul>
           </div>
       </section>
-      <section class="main-section-fourth">
+      <section class="main-section-fourth" id="portfolio">
         <div class="container">
           <h2 class="our-portfolio">Our Portfolio</h2>
       <ul class="portfolio-list">
@@ -152,6 +153,7 @@
               <div class="portfolio-container">
                   <h3 class="portfolio-h">Screen Illustrations</h3>
                       <p class="portfolio-text">Design</p>
+              </div>
           </li>
           <li class="portfolio-item">
               <img src="./images/women.jpg" 
@@ -166,7 +168,7 @@
       </div>
       </section>
           </main>
-          <footer class="page-footer">
+          <footer class="page-footer" id="footer">
             <div class="container">
               <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span>
             </a>
